@@ -13,11 +13,22 @@ header {
 
 select {
   background-color: #222;
-  color: #fff;
   border: 1px solid #444;
   padding: 10px;
   font-size: 16px;
   border-radius: 6px;
+  color: #fff;
+}
+
+/* ✅ New addition below */
+select optgroup[label] {
+  color: #7dd3fc; /* Light blue for section headers */
+  font-weight: bold;
+}
+
+select optgroup option {
+  color: #fff; /* Calculator options remain white */
+  font-weight: normal;
 }
 
 main {
