@@ -1,0 +1,94 @@
+body {
+  margin: 0;
+  background-color: #000;
+  color: #eee;
+  font-family: 'Segoe UI', sans-serif;
+}
+
+header {
+  background-color: #111;
+  padding: 15px;
+  text-align: left;
+}
+
+select {
+  background-color: #222;
+  color: #fff;
+  border: 1px solid #444;
+  padding: 10px;
+  font-size: 16px;
+  border-radius: 6px;
+}
+
+main {
+  padding: 30px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  min-height: 85vh;
+}
+
+.welcome-card {
+  background: #111;
+  border-radius: 10px;
+  padding: 40px;
+  text-align: center;
+  box-shadow: 0 0 12px rgba(10, 123, 255, 0.4);
+}
+
+.welcome-icon {
+  font-size: 50px;
+  margin-bottom: 15px;
+  color: #0af;
+}
+
+h1 {
+  margin-bottom: 10px;
+  color: #0af;
+}
+
+.calculator {
+  background: #111;
+  padding: 20px;
+  border-radius: 10px;
+  max-width: 500px;
+  width: 100%;
+  box-shadow: 0 0 12px rgba(10, 123, 255, 0.4);
+}
+
+.calculator h2 {
+  margin-bottom: 20px;
+  color: #0af;
+}
+
+input, select {
+  display: block;
+  width: 100%;
+  margin-bottom: 15px;
+  padding: 10px;
+  background: #222;
+  border: 1px solid #444;
+  color: #fff;
+  border-radius: 6px;
+}
+
+button {
+  background-color: #0af;
+  color: #000;
+  padding: 10px 15px;
+  border: none;
+  border-radius: 6px;
+  font-weight: bold;
+  cursor: pointer;
+}
+
+button:hover {
+  background-color: #08d;
+}
+
+.result {
+  margin-top: 15px;
+  padding: 10px;
+  background-color: #222;
+  border-radius: 6px;
+}
